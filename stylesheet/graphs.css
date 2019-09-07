@@ -21,8 +21,7 @@
 .all-graphs {
     display: flex; 
     justify-content: space-between;
-    padding-left: 55px; 
-    padding-right: 55px; 
+    padding: 50px; 
 
 }
 

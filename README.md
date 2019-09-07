@@ -1,31 +1,13 @@
 # UnitedNations
-Data visualization of UN financial expenditure/revenue 
+Data visualization of Swiss migration
 
 # Background and Overview
 
-As a Computer Science and International Relations double-major, I am interested in ways these fields intersect. This project will show how United Nations is structured, where it is getting funding from ,and where the money is being used. This will be an important visualization for the discussion of the future role of intergovernmental organizations in world politics.
+In preparation for going abroad to Geneva, Switzerland in Spring 2020, I am currently taking a class on Geneva Colloquium (POSC 300). We were assigned to read various articles regarding Swiss citizenship or migration processes and was asked to create a quantitative assignment using Excel. Having been exposed to D3.js recently, I decided to take another step and decided to use D3.js instead of Excel to learn more about D3 data manipulation. Results are simple charts that answer questions I had about Swiss citizenship. 
 
 
 # Functionality and MVP Features
 
-In this project, users will be able to 
-
-   * [ ]  look at UN organization tree
-   * [ ]  see animation for donation by country by years
-   * [ ]  see expenditure by agency 
-   * [ ]  see expenditure by country 
-   * [ ] total expenditure by category
-  
-
-
-In addition, this project will include, 
-
-   * [ ] logo of subparts of UN
-
-
-# Wireframes
-
-The app will consist of a 3 different section a user can naviagte to. The upper right corner will have icons that will show my GitHub and LinkedIn profile. 
 
 
 # Architecture and Technologies
@@ -36,28 +18,9 @@ This project will be implemented with the following technologies:
   * Webpack to bundle and serve up the various scripts.
 
 
-# Development Timeline
-Day 1: Initial set up 
-  * Get webpack running with basic entry file and skeleton 
-  * Find data files and narrow down the data set 
-
-Day 2: expenditure by agency & donation by country & expenditure by country 
-  *
-  *
-
-Day 3: look at UN organization tree
-  *
-
-Day 4: animation for growth of UN memberships
-
-Day 5: Bonus 
-   * [ ]  Enhance user experience 
-   * [ ]  Implement bonus features 
-
-# Bonus features 
-   * [ ] map for IGO headquarters (darker color for places with more IGO)
-
-
+# Data sets 
+All the data was gathered from Federal Statistical Office. 
+https://www.bfs.admin.ch/bfs/en/home/statistics/population/migration-integration/citizenship/application-intention.html
 
 
 
