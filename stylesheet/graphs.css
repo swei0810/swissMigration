@@ -1,0 +1,19 @@
+.graph-1 {
+    width: 100px;
+    height: 100px; 
+}
+
+.header {
+    position: relative; 
+    left: 150px; 
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+.graph {
+    margin-left: 30px; 
+}
+
+.buttons {
+    margin-left: 50px; 
+}
