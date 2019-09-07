@@ -5,7 +5,7 @@
 
 .header {
     position: relative; 
-    left: 150px; 
+    /* left: 150px;  */
     font-weight: bold; 
     font-size: 20px; 
 }
@@ -16,4 +16,47 @@
 
 .buttons {
     margin-left: 50px; 
+}
+
+.all-graphs {
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 55px; 
+    padding-right: 55px; 
+
+}
+
+.mid {
+    border-right: 2px solid black;
+}
+.box1 {
+    width: 20px; 
+    height: 20px; 
+    background-color:#ff6961;
+}
+
+.box2 {
+    width: 20px; 
+    height: 20px; 
+    background-color:#779ecb;
+}
+
+.box3 {
+    width: 20px; 
+    height: 20px; 
+    background-color:#aa77dd;
+}
+
+
+.legend-box {
+    display: flex; 
+}
+
+.legend {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.legend-title {
+    padding-bottom: 10px; 
 }
