@@ -1,3 +1,8 @@
+html {
+    font-family: 'Signika', sans-serif;
+
+}
+
 .graph-1 {
     width: 100px;
     height: 100px; 
@@ -58,4 +63,29 @@
 
 .legend-title {
     padding-bottom: 10px; 
+}
+
+.text {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black; 
+    border-radius: 50px;
+    padding: 20px; 
+    margin-top: 30px; 
+    text-align: center; 
+}
+
+button {
+    width: 70px; 
+    height: 30px; 
+    font-weight: bold; 
+    border-radius: 20%;
+    border: 2px solid #779ecb;
+    cursor: pointer; 
+    margin-right: 10px; 
+}
+
+.tooltip {
+    top: 250px;
+    left: 280px;  
 }
