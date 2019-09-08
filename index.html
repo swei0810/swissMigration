@@ -89,7 +89,7 @@
 
 
                         </div>
-                        <div class="text"> <br/>The statistics show that while more people intend to acquire citizenship, only a small percentage has already requested to become a citizen. 
+                        <div class="text"> The statistics show that while more people intend to acquire citizenship, only a small percentage has already requested to become a citizen. 
                         It was surprising for me that majority of permanent residents did not feel the need to apply for naturalisation to obtain Swiss nationality. I believe that this low rate might be because of 
                         barriers to naturalization including strict requirement and dissatisfaction of the process involving approval by local authorities. 
                         </div>
@@ -279,11 +279,30 @@
                                                         .style("stroke-width", "2px")
                                                         .style("opacity", 1)
 
+                                                svg2.selectAll('path')
+                                                        .on("mouseover", function (d) {
+                                                                tooltip.text(d.value + "%");
+                                                                tooltip.style("visibility", "visible");
+                                                        })
+                                                        .on("mouseout", function () { return tooltip.style("visibility", "hidden"); });
+
                                                 svg2.append("text")      // text label for the x axis
                                                         .attr("x", 0)
                                                         .attr("y", -200)
                                                         .style("text-anchor", "middle")
                                                         .text(title);
+
+                                                var tooltip = d3.select("body")
+                                                        .append("div")
+                                                        .style("position", "absolute")
+                                                        .style("z-index", "100")
+                                                        .style("visibility", "hidden")
+                                                        .style("color", "white")
+                                                        .style("padding", "8px")
+                                                        .style("background-color", "rgba(0, 0, 0, 0.75)")
+                                                        .style("border-radius", "6px")
+                                                        .text("tooltip")
+                                                        .attr("class", "pie-tooltip");
                                                 // svg2.html(title);
                                                 // remove the group that is not present anymore
                                                 u
